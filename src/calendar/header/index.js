@@ -146,7 +146,8 @@ class CalendarHeader extends Component {
   render() {
     let leftArrow = <View/>;
     let rightArrow = <View/>;
-    let weekDaysNames = weekDayNames(this.props.firstDay);
+    // let weekDaysNames = weekDayNames(this.props.firstDay);
+    let weekDaysNames = weekDayNames(6);
     const {testID} = this.props;
 
     if (!this.props.hideArrows) {
